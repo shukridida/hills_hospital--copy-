@@ -11,7 +11,7 @@ const Doctors = () => {
             setDoctors(data);
         };
 
-        fetchDoctors();
+        fetchDoctors(); 
     }, []);
 
     return (
